@@ -7,7 +7,8 @@ import { RouterView } from 'vue-router';
 <template>
  
  <RouterView/>
-
+ //routerview是路由组件占位符，用于渲染当前路由匹配到的组件
+//app.vue是第一次呈现的主页面
 </template>
 
 <style scoped lang="scss">

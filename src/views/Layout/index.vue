@@ -21,9 +21,13 @@ onMounted(()=>categoryStore.getCategory())
 
 <template>
   <!-- <LayoutFixed /> -->
-  <RouterView />
+  
   <LayoutNav />
   <LayoutHeader />
+
+  <RouterView />
+  //这是占位符，不占就不会匹配到路由对应的组件，这其实是为children准备的
+  
   <LayoutFixed />
   <!-- 添加 key 破坏复用机制 强制销毁重建 -->
   <!-- <RouterView :key="$route.fullPath" /> -->
