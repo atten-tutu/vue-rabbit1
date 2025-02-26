@@ -6,16 +6,16 @@ import { RouterView } from 'vue-router';
 
 <template>
  
- <RouterView/>
- //routerview是路由组件占位符，用于渲染当前路由匹配到的组件
-//app.vue是第一次呈现的主页面
+ <RouterView />
+
 </template>
 
 <style scoped lang="scss">
 .test{
   color: $priceColor;
 }
-
+// <!-- //routerview是路由组件占位符，用于渲染当前路由匹配到的组件
+//   //app.vue是第一次呈现的主页面 -->
 header {
   line-height: 1.5;
   max-height: 100vh;
