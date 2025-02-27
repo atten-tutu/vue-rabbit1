@@ -6,3 +6,8 @@ export function getBannerAPI(){
     })
 }
 //封装接口
+export const findNewAPI = () => {
+    return httpInstance({
+      url:'/home/new'
+    })
+  }

@@ -20,6 +20,6 @@ import HomePanel from './components/HomePanel.vue'
     <div>我是新鲜好物插槽</div>
   </HomePanel>
   <HomePanel title="人气推荐" subTitle="热你个屁">
-    <div>我是人气推荐</div>>
+    <div>我是人气推荐</div>
   </HomePanel>
 </template>
