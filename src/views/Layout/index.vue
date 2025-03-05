@@ -4,7 +4,7 @@ import LayoutHeader from './components/LayoutHeader.vue'
 import LayoutFooter from './components/LayoutFooter.vue'
 import LayoutFixed from './components/LayoutFixed.vue';
 import { useCategoryStore } from '@/stores/category';
-import { onMounted } from 'vue';
+import { onMounted } from "vue";
 const categoryStore = useCategoryStore()
 
 //触发
@@ -24,7 +24,7 @@ onMounted(()=>categoryStore.getCategory())
   
   <LayoutNav />
   <LayoutHeader />
-
+<!-- 破坏复用机制 -->
   <RouterView :key="$route.fullPath"/>
  
   <!-- //这是占位符，不占就不会匹配到路由对应的组件，这其实是为children准备的 -->
