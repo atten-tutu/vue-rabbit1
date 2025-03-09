@@ -1,6 +1,6 @@
 //仍然用pinia渲染
 <script setup>
-import { useCategoryStore } from '@/stores/category';
+import { useCategoryStore } from '@/stores/categoryStore';
 const CategoryStore = useCategoryStore()
 </script>
 
@@ -152,4 +152,4 @@ const CategoryStore = useCategoryStore()
     }
   }
 }
-</style>
+</style>@/stores/categoryStore@/stores/categoryStore
